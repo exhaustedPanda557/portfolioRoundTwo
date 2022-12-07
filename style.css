@@ -1,0 +1,116 @@
+body {
+    background-color: rgb(157, 219, 239);
+}
+
+h1 {
+    font-family: 'URW Chancery L', cursive;
+    font-weight: bolder;
+    color: rgb(58, 5, 133);
+    text-align: center;
+}
+
+.navigation {
+    background-color: rgb(58, 5, 133);
+    margin: none;
+    padding: 0;
+}
+
+ul,
+li,
+a {
+    font-size: 125%;
+    font-family: 'URW Chancery L';
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(157, 219, 239);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+h2 {
+    font-family: 'marker felt', fantasy;
+    font-size: 190%;
+    font-weight: 500;
+    color: rgb(44, 45, 56);
+    text-align: center;
+}
+
+h3{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 190%;
+    font-weight: 500;
+    color: rgb(44, 45, 56);
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: rgb(157, 219, 239);
+    color: black;
+    font-family: 'marker felt', fantasy;
+    font-weight: 400;
+    border-color: rgb(157, 219, 239);
+}
+
+.btn-secondary{
+    background-color: rgb(58, 5, 133);
+    color:#fff;
+    border-color: rgb(58, 5, 133);
+    display: flex;
+    justify-self: center;
+}
+
+.btn-light{
+    background-color: rgb(44, 45, 56);
+    color:#fff;
+    border-color: rgb(44, 45, 56);
+    display: flex;
+    justify-self: center;
+}
+
+.portBox {
+    border-color: rgb(58, 5, 133);
+    border-width: 3px 3px 3px;
+    border-style: solid;
+    box-shadow: 4px 4px 4px 4px rgb(130, 129, 130);
+}
+
+.carousel-control-prev-icon {
+    background-image: url("purple\ back\ arrow.svg");
+}
+
+.carousel-control-next-icon {
+    background-image: url("purple\ forward\ arrow.svg");
+}
+
+
+.buttonWhite {
+    padding: 6px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: rgb(0, 0, 0) 4px 4px 10px 4px;
+    border: 3px solid rgb(58, 5, 133);
+    display: inline-block;
+}
+
+.buttonBlue {
+    padding: 6px;
+    border-radius: 10px;
+    background-color: #ffff;
+    box-shadow: rgb(157, 219, 239) 10px 10px 10px 10px;
+    border: 3px solid rgb(58, 5, 133);
+    display: inline-block;
+}
+
+.smallButton {
+    padding: 6px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 3px solid rgb(58, 5, 133);
+    display: table-cell;
+}

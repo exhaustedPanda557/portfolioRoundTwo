@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css ">
+    <title>Design Portfolio</title>
+</head>
+
+<body>
+    <div style="justify-content: center;">
+        <h1 style="font-size: 700%; flex-wrap: nowrap; padding: 2rem; margin-bottom: 0.5rem;">exhaustedPanda557</h1>
+        <div class="navigation">
+            <ul class="link black">
+                <li><a href="index.html">Home</a></li>
+                <li><a href=#Context>Context</a></li>
+                <li><a href=#College>Applicability</a></li>
+                <li><a href=#Process>Process</a></li>
+                <li><a href=#Takeaway>Takeaway</a></li>
+                <li><a href=#Deployment>Deployment</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="foodWaste" class="container-fluid" style="padding: 4rem;">
+        <h1 style="font-size: 500%; font-weight: 900;text-align: start; margin-top: 2rem; margin-bottom: 5rem;">Preventing Food Waste For Beginners</h1>
+        <h2 id="Context" class="smallButton" style="text-align: start; font-weight: 900;">Context</h2>
+        <h3 style="text-align: start; margin-top: 2rem; margin-bottom: 3rem;">I created an interactive list-based
+            interace with React,
+            composed of tying
+            components to an internal data state. My interface allowed users to select food items from a list of what is
+            in their refridgerator and aggreate the prep time for what is selected.</h3>
+        <h2 id="College" class="smallButton" style="text-align: start; font-weight: 900;">Applicability to College
+            Students</h2>
+        <h3 style="text-align: start; color:rgb(58, 5, 133); margin-top: 2rem ;margin-bottom: 3rem;">Food waste is a
+            huge environmental
+            and ethical issue that is especially difficult to address when you are a new cook. College can be the first
+            time students buy
+            groceries and cook for themselves. Unfortunately, the result can be forgotten food that has to be thrown out
+            and unhealthy dinners. Thus, I created an interface to filter and sort based on calories, expiration
+            status, food group category, and prep time. The interface allows users to create a healthy dinner recipe
+            with low food waste and plan for the prep time (helpful for beginner college cooks).</h3>
+
+        <h2 id="Process" class="smallButton"
+            style="text-align: start; font-weight:900; margin-top: 5rem; margin-bottom: 1rem;">
+            Process</h2>
+        <h3>(click
+            arrows on the slideshow for the progression)</h3>
+        <div id="foodWasteCarousel" style="margin-top: 2rem;">
+            <div id="carouselFOODCaptions" class="carousel slide" data-bs-ride="false">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselFOODCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselFOODCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselFOODCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="food item screenshot.png" class="d-block w-100"
+                            alt="screenshot of the box holding food item information"
+                            style="padding-bottom: 6rem; height: 70vh; padding-left: 25vw; padding-right: 25vw;">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>(1) I created a dinner item component to store data on the food.</h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="filtering and sorting screenshot.png" class="d-block w-100"
+                            alt="screenshot of the filtering and sorting buttons"
+                            style="padding-bottom: 9rem; height: 70vh; padding-left: 25vw; padding-right: 25vw;">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>(2) I created filtering and sorting to allow users to quickly identify what
+                                ingredients to use.</h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="dinner recipe aggregator.png" class="d-block w-100"
+                            alt="screenshot of the section showing the dinner recipe aggregator"
+                            style="padding-bottom: 9rem; height: 70vh; padding-left: 37vw; padding-right: 37vw;">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>(3) I created a dinner recipe section that displays which items have been selected
+                                and aggregates their prep time.</h3>
+                        </div>
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselFOODCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselFOODCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <h2 id="Takeaway" class="smallButton"
+            style="text-align: start; font-weight:900; margin-top: 5rem; margin-bottom: 1rem;">
+            Takeaway</h2>
+        <h3 style="color:rgb(58, 5, 133); margin-top: 2rem; margin-bottom: 3rem;">It's important for the layout to be
+            split into three parts that mirrors the three main user
+            tasks: learn information about a food item, search for food items that satify low food waste and healthy
+            criteria, and create a dinner recipe that helps beginner cooks by sharing the prep time needed.</h3>
+
+        <h2 id="Deployment" class="smallButton"
+            style="text-align: start; font-weight:900; margin-top: 5rem; margin-bottom: 1rem;">
+            Deployment</h2>
+        <div class="embed-responsive embed-responsive-4by3" style="margin-top: 2rem;">
+            <iframe class="embed-responsive-item" src="https://exhaustedpanda557.github.io/reactProject/"
+                style="width:90vw; height: 35rem;"></iframe>
+        </div>
+
+    </div>
+
+    <div class="container-fluid">
+        <a class="btn btn-secondary" href=# role="button" style="margin-top: 2rem; margin-bottom: 0.5rem;">Click To Return To Top</a>
+        <a class="btn btn-light" href="index.html#Work" role="button" style="margin-bottom: 1rem;">Click To See Other Work</a>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

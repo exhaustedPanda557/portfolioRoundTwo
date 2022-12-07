@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css ">
+    <title>Design Portfolio</title>
+</head>
+
+<body>
+    <div style="justify-content: center;">
+        <h1 style="font-size: 700%; flex-wrap: nowrap; padding: 2rem; margin-bottom: 0.5rem;">exhaustedPanda557</h1>
+        <div class="navigation">
+            <ul class="link black">
+                <li><a href="index.html">Home</a></li>
+                <li><a href=#Context>Context</a></li>
+                <li><a href=#College>Applicability</a></li>
+                <li><a href=#Process>Process</a></li>
+                <li><a href=#Takeaway>Takeaway</a></li>
+                <li><a href=#Deployment>Deployment</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="cocktails" class="container-fluid" style="padding: 4rem;">
+        <h1 style="font-size: 500%; font-weight: 900;text-align: start; margin-top: 2rem; margin-bottom: 5rem;">
+            Learning Cocktail Instructions</h1>
+        <h2 id="Context" class="smallButton" style="text-align: start; font-weight: 900; margin-bottom: 1rem;">Context
+        </h2>
+        <h3 style="text-align: start; margin-top: 2rem; margin-bottom: 3rem;">I created mobile Flutter app using
+            asynchronous calls to an
+            outside data source
+            of cocktail information to display bartending help.</h3>
+        <h2 id="College" class="smallButton" style="text-align: start; font-weight: 900;">Applicability to College
+            Students</h2>
+        <h3 style="text-align: start; color:rgb(58, 5, 133); margin-top: 2rem; margin-bottom: 3rem;">College students do
+            not know how to
+            make sophisticated
+            alcoholic drinks and settle for gatorade spiked with alcohol. The mobile app is convenient and makes it easy
+            to click one button and learn a margarita receipe.</h3>
+
+        <h2 id="Process" class="smallButton"
+            style="text-align: start; font-weight:900; margin-top: 5rem; margin-bottom: 1rem;">
+            Process</h2>
+        <h3>(click
+            arrows on the slideshow for the progression)</h3>
+        <div id="cocktailCarousel" style="margin-top: 2rem;">
+            <div id="carouselCOCKTAILCaptions" class="carousel slide" data-bs-ride="false">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselCOCKTAILCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselCOCKTAILCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+
+
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="cocktail json screenshot.png" class="d-block w-100"
+                            alt="screenshot of json holding cocktail informaiton from an API call"
+                            style="padding-bottom: 9rem; height: 80vh; padding-left: 15vw; padding-right: 15vw;">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>(1) I identified a JSON with cocktail information that the mobile app can make
+                                asynchronous calls to.</h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="cocktail button widget.png" class="d-block w-100"
+                            alt="screenshot of clicked button wdiget that shows bartending instructions"
+                            style="padding-bottom: 12rem; height: 80vh; padding-left: 20vw; padding-right: 20vw;">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>(2) I created a button Widget that when clicked by a user, asynchronously gets
+                                the selected drink instructions.</h3>
+                        </div>
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselCOCKTAILCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselCOCKTAILCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <h2 id="Takeaway" class="smallButton"
+            style="text-align: start; font-weight:900; margin-top: 5rem; margin-bottom: 1rem;">
+            Takeaway</h2>
+        <h3 style="color:rgb(58, 5, 133); margin-top: 2rem ;margin-bottom: 3rem;">It is most efficient to the user and
+            creator if a buttons corresponds to just
+            one piece of data from the JSON returned in an API call (i.e. each drink has its own button to get the
+            cocktail instructions).</h3>
+
+        <h2 id="Deployment" class="smallButton"
+            style="text-align: start; font-weight:900; margin-top: 5rem; margin-bottom: 1rem;">
+            Deployment</h2>
+        <video width="700" height="600" controls style="margin-top: 2rem;">
+            <source src="bartending app.mov">
+        </video>
+
+    </div>
+
+    <div class="container-fluid">
+        <a class="btn btn-secondary" href=# role="button" style="margin-top: 2rem; margin-bottom: 0.5rem;">Click To Return To Top</a>
+        <a class="btn btn-light" href="index.html#Work" role="button" style="margin-bottom: 1rem;">Click To See Other Work</a>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
